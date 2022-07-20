@@ -242,7 +242,7 @@ class SimA(nn.Module):
 
         k = F.normalize(k, p=1.0, dim=-2)
         q = F.normalize(q, p=1.0, dim=-2)
-        if (N / C) < 1:
+        if (N / (C//self.num_heads)) < 1:
             x = ((q @ k.transpose(-2, -1)) @ v).transpose(1, 2).reshape(B, N, C)
         else:
             x = (q @ (k.transpose(-2, -1) @ v)).transpose(1, 2).reshape(B, N, C)
