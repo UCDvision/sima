@@ -1,9 +1,22 @@
 # Simple Softmax-free Attention for Vision Transformer (SimA)
 
 
-Official PyTorch implementation and pretrained models for SimA models. 
+Official PyTorch implementation and pretrained models for SimA models. ([arXiv](https://arxiv.org/abs/2206.08898)) 
 
 ---
+
+```
+@misc{https://doi.org/10.48550/arxiv.2206.08898,
+  doi = {10.48550/ARXIV.2206.08898},
+  url = {https://arxiv.org/abs/2206.08898},
+  author = {Koohpayegani, Soroush Abbasi and Pirsiavash, Hamed},
+  keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {SimA: Simple Softmax-free Attention for Vision Transformers},
+  publisher = {arXiv},
+  year = {2022},  
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+```
 
 # Getting Started
 
